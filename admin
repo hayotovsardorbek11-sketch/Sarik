@@ -1,0 +1,7 @@
+admin/
+├─ links/       # Kanallar havolalari (bo‘sh)
+├─ zayavka/     # Obuna ma’lumotlari (bo‘sh)
+├─ admins.txt   # 5775388579
+├─ kanal.txt    # kino kanaling ID yoziladi
+├─ kino.txt     # kino kanal ID yoziladi
+└─ rek.txt      # reklama matni (bo‘sh yoki default)
