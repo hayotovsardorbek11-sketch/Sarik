@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+
+android {
+    namespace 'uz.sarik.wormcinema'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'uz.sarik.wormcinema'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        version = '3.13'
+        pip {
+            install 'Flask==3.0.2'
+            install 'Werkzeug==3.0.1'
+        }
+    }
+}
